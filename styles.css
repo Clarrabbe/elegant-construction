@@ -199,7 +199,8 @@ section {
   /* Automatically adjusts the row height based on content */
   gap: 20px;
   /* Adds a 20px space between each grid item */
-
+  row-gap: 20px;
+  column-gap: 20px;
 }
 
 /* Each individual project item */
@@ -286,7 +287,9 @@ section {
   /* Automatically adjusts the row height based on content */
   gap: 20px;
   /* Adds a 20px space between each grid item */
- 
+  row-gap: 20px;
+  column-gap: 20px;
+  object-fit: cover;
 }
 @media screen and (min-width: 320px) {
   .projects-grid {
@@ -319,6 +322,7 @@ section {
   /* Automatically adjusts the row height based on content */
   gap: 20px;
   /* Adds a 20px space between each grid item */
+  object-fit: cover;
 }
 
 /* The image inside each project */
@@ -377,6 +381,7 @@ section {
   width: 300px;
   display: flex;
   flex-wrap: wrap;
+  object-fit: cover;
 }
 
 /* Makes the entire project item clickable, linking to a new page */
