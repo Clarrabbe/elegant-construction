@@ -282,12 +282,13 @@ section {
 .projects-grid {
   display: grid;
   /* Turns this div into a grid container */
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   /* Creates 4 equal-width columns */
   grid-auto-rows: auto;
   /* Automatically adjusts the row height based on content */
-  gap: 20px;
+  gap: 16px;
   /* Adds a 20px space between each grid item */
+  padding: 16px;
   row-gap: 20px;
   column-gap: 20px;
   object-fit: cover;
@@ -317,12 +318,13 @@ section {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   /* Creates 4 equal-width columns */
   grid-auto-rows: auto;
   /* Automatically adjusts the row height based on content */
   gap: 20px;
   /* Adds a 20px space between each grid item */
+  padding: 16px;
   object-fit: cover;
 }
 
